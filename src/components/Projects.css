@@ -1,0 +1,11 @@
+.projects {
+    padding: 2em;
+    margin: 1em 0;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

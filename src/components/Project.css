@@ -1,0 +1,38 @@
+.project-square {
+    width: 220px;
+    height: 220px;
+    background-color: #87CEFA; /* Light blue color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .project-square:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    background-color: #00BFFF; /* Darker blue on hover */
+  }
+  
+  .project-square h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .project-square p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+  
+  .project-square a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
