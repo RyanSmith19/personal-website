@@ -1,7 +1,7 @@
 .project-square {
     width: 220px;
     height: 220px;
-    background-color: #87CEFA; /* Light blue color */
+    background-color: var(--light-blue); /* Light blue color */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,14 +11,15 @@
     margin: 20px;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(75, 60, 60, 0.1);
     text-align: center;
     transition: transform 0.2s, background-color 0.2s;
   }
   
   .project-square:hover {
-    transform: scale(1.05); /* Slight zoom on hover */
-    background-color: #00BFFF; /* Darker blue on hover */
+    transform: scale(1.1); 
+    background-color: var(--light-blue-hover); 
+    box-shadow: 0 8px 16px var(--light-blue);
   }
   
   .project-square h3 {

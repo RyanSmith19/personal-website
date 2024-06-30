@@ -1,17 +1,24 @@
 .contact {
   padding: 2em;
-  margin: 1em 0;
+  /* margin: 2em 0; */
   text-align: center;
 }
 
 .contact-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px var(--light-blue);
   padding: 20px 30px;
   display: flex;
   flex-direction: column; /* Ensures content is stacked vertically */
   align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.contact-card:hover {
+  transform: scale(1.1);
+  /* color: #007BFF;*/
 }
 
 .contact-info {
@@ -62,5 +69,6 @@
 
 .social-icon:hover {
   transform: scale(1.1);
-  color: #007BFF; /* Light blue on hover */
+  box-shadow: 0 8px 16px var(--light-blue);
+  /* color: #007BFF;*/
 }

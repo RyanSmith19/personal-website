@@ -1,9 +1,15 @@
+/* Global CSS variables */
+:root {
+  --light-blue: rgba(135, 206, 250, 0.8); 
+  --light-blue-hover: rgba(0, 191, 255, 0.8);
+}
+
 /* Global body styles */
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
-  background: url('/public/background.jpg') no-repeat center center fixed; /* Fixed background image */
-  background-size: cover; /* Ensure the image covers the entire background */
+  background: url('/public/background.jpg') no-repeat center center fixed; 
+  background-size: cover; 
   color: #333;
   padding: 0;
   margin: 0;
@@ -20,16 +26,20 @@ body {
 section {
   padding: 2em;
   margin: 2em 0;
-  background: rgba(255, 255, 255, 0.5); /* Remove solid background */
+  background: rgba(255, 255, 255, 0.5); 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Header styles */
+section h2 {
+  margin-top: 0;
+}
+
+/* Header */
 .header {
   position: relative;
-  height: 100vh; /* Full viewport height */
-  background: none; /* Remove background from header */
+  height: 100vh; 
+  background: none; 
   color: white;
   display: flex;
   justify-content: center;
@@ -37,39 +47,6 @@ section {
   text-align: center;
 }
 
-.header-content {
-  background: none; /* Remove background from header content */
-  padding: 20px;
-  border-radius: 10px;
-}
 
-.header h1 {
-  font-size: 3em;
-  margin: 0;
-}
 
-.header h2 {
-  font-size: 2em;
-  margin: 0;
-}
 
-/* Link styles */
-.resume-link {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 1em;
-  background-color: #007BFF; /* Bubble background color */
-  color: white; /* Text color */
-  border-radius: 25px; /* Round the corners to make it a bubble */
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s, transform 0.3s;
-  border: none; /* Remove any border */
-  outline: none; /* Remove any outline */
-  box-shadow: none; /* Remove any box-shadow */
-}
-
-.resume-link:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  transform: scale(1.05); /* Slightly enlarge the bubble on hover */
-}

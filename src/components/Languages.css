@@ -1,6 +1,6 @@
 .languages {
     padding: 2em;
-    margin: 1em 0;
+    /* margin: 1em 0; */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -17,9 +17,10 @@
   }
   
   .language-card {
-    background: rgba(255, 255, 255, 0.5);
+    background: var(--light-blue);
     border-radius: 10px;
     padding: 1em;
+    color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     font-size: 16px;
@@ -27,7 +28,8 @@
   }
 
   .language-card:hover {
-    background: rgba(255, 255, 255, 1); /* Fully opaque */
+    background: var(--light-blue-hover); /* Fully opaque */
     transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 8px 16px var(--light-blue);
   }
   

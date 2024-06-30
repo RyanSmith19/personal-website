@@ -21,13 +21,12 @@ const About = () => {
       <header className="header">
         <div className="header-content">
           <h1>Ryan Smith</h1>
-          <h2>Software Engineer</h2>
+          {/* <h2>Software Engineer</h2> */}
         </div>
       </header>
       <section id="about" className="about">
         <h2>About Me</h2>
         <p>I am a {age} year old Software Engineer currently seeking full-time employment. I graduated from Cal Poly with a B.S. in Software Engineering, June of 2024.</p>
-        <hr className="divider" />
         <a href="https://drive.google.com/file/d/1vIPpD3jma_Bk4dXFg2N3yMRZYDPuPBAb/view" target="_blank" className="resume-link" rel="noreferrer">
           View Resume
         </a>

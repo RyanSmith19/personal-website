@@ -3,13 +3,15 @@ import './Languages.css';
 
 const Languages = () => {
   const languages = [
-    'JavaScript',
     'Python',
     'Java',
     'C++',
     'C',
     'C#',
     'PHP',
+    'JavaScript',
+    'HTML',
+    'CSS',
     'MySQL',
     'Racket'
   ];
