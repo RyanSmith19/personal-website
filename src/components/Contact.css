@@ -4,22 +4,13 @@
   text-align: center;
 }
 
-.contact-card-background {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  background: linear-gradient(135deg, #87CEFA, #00BFFF, #1E90FF); /* Gradient background with shades of blue */
-  border-radius: 15px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-}
-
 .contact-card {
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 20px 30px;
   display: flex;
+  flex-direction: column; /* Ensures content is stacked vertically */
   align-items: center;
 }
 

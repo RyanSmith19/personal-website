@@ -1,0 +1,29 @@
+.about {
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .divider {
+    width: 50%;
+    margin: 2em auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .resume-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 1em;
+    background-color: #87CEFA; /* Bubble background color */
+    color: white; /* Text color */
+    border-radius: 25px; /* Round the corners to make it a bubble */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .resume-link:hover {
+    background-color: #00BFFF; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the bubble on hover */
+  }
+  
