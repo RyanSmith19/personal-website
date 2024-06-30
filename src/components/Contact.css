@@ -1,73 +1,75 @@
 .contact {
-    padding: 2em;
-    margin: 1em 0;
-    text-align: center;
-  }
-  
-  .contact-card-background {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background: linear-gradient(135deg, #87CEFA, #00BFFF, #1E90FF); /* Gradient background with shades of blue */
-    border-radius: 15px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-card {
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 20px 30px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .contact-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: 500;
-    color: #333; /* Dark text color for contrast */
-  }
-  
-  .contact-info .icon {
-    margin-right: 8px;
-    color: #ff3366; /* Pink color for the icon */
-  }
-  
-  .contact-info .divider {
-    margin: 0 8px;
-    color: #ccc;
-  }
-  
-  .contact-info .email-link {
-    color: #007BFF; /* Light blue color for the email link */
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.2s;
-  }
-  
-  .contact-info .email-link:hover {
-    color: #0056b3; /* Darker blue on hover */
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  .social-icon {
-    font-size: 24px;
-    color: #333;
-    margin: 0 10px;
-    transition: transform 0.2s, color 0.2s;
-  }
-  
-  .social-icon:hover {
-    transform: scale(1.1);
-    color: #007BFF; /* Light blue on hover */
-  }
-  
+  padding: 2em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.contact-card-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #87CEFA, #00BFFF, #1E90FF); /* Gradient background with shades of blue */
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333; /* Dark text color for contrast */
+}
+
+.contact-info .icon {
+  margin-right: 8px;
+}
+
+.contact-info .email-icon {
+  color: #87CEFA; /* Light blue color for the email icon */
+}
+
+.contact-info .divider {
+  margin: 0 8px;
+  color: #ccc;
+}
+
+.contact-info .email-link {
+  color: #007BFF; /* Light blue color for the email link */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.contact-info .email-link:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #333;
+  margin: 0 10px;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  color: #007BFF; /* Light blue on hover */
+}

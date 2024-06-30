@@ -1,0 +1,29 @@
+.languages {
+    padding: 2em;
+    margin: 1em 0;
+    background: #f4faff; /* Very light blue color for sections */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .languages h2 {
+    margin-bottom: 20px;
+  }
+  
+  .languages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1em;
+  }
+  
+  .language-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

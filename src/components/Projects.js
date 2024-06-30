@@ -4,7 +4,7 @@ import './Projects.css';
 
 const projectData = [
   {
-    title: 'Daily Grace Quote Email',
+    title: 'Daily Quote Email',
     description: 'Pulls the "Quote of the Day" from a quote website and sends it to my email.',
     link: 'https://github.com/RyanSmith19/DailyGraceQuote'
   },
