@@ -9,7 +9,7 @@ import Languages from './components/Languages';
 const App = () => {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <About />
       <Projects />
       <Languages />

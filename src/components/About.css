@@ -1,29 +1,29 @@
+/* About Me Section Styles */
 .about {
-    text-align: center;
     padding: 2em;
+    margin: 2em 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  .divider {
-    width: 50%;
-    margin: 2em auto;
-    border: 0;
-    border-top: 1px solid #ccc;
-  }
-  
+  /* Link styles for resume link */
   .resume-link {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 1em;
-    background-color: #87CEFA; /* Bubble background color */
+    background-color: rgba(135, 206, 250, 0.8); /* 80% opacity blue background */
     color: white; /* Text color */
     border-radius: 25px; /* Round the corners to make it a bubble */
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s, transform 0.3s;
+    border: none; /* Remove any border */
+    outline: none; /* Remove any outline */
+    box-shadow: none; /* Remove any box-shadow */
   }
   
   .resume-link:hover {
-    background-color: #00BFFF; /* Darker blue on hover */
+    background-color: rgba(0, 191, 255, 0.8); /* Darker blue on hover with 80% opacity */
     transform: scale(1.05); /* Slightly enlarge the bubble on hover */
   }
   
