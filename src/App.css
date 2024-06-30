@@ -47,6 +47,68 @@ section h2 {
   text-align: center;
 }
 
+/* Media Queries for Mobile */
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-attachment: scroll; /* Make background scroll with content */
+  }
+
+  section {
+    padding: 1em;
+    margin: 1em 0;
+  }
+
+  .header {
+    height: auto;
+    padding: 2em 1em;
+  }
+
+  .header-content {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 2em;
+  }
+
+  .header h2 {
+    font-size: 1.5em;
+  }
+
+  .App {
+    padding: 10px;
+  }
+
+  .resume-link {
+    padding: 10px 15px;
+    font-size: 0.9em;
+  }
+
+  .project-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .language-card {
+    font-size: 14px;
+    padding: 0.8em;
+  }
+
+  .contact-card-background {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .social-icons {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+  .social-icon {
+    font-size: 1.5em;
+  }
+}
 
 
 

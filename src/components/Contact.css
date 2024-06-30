@@ -10,14 +10,14 @@
   box-shadow: 0 4px 12px var(--light-blue);
   padding: 20px 30px;
   display: flex;
-  flex-direction: column; /* Ensures content is stacked vertically */
+  flex-direction: column; 
   align-items: center;
   width: fit-content;
   margin: 0 auto;
 }
 
 .contact-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   /* color: #007BFF;*/
 }
 
@@ -68,7 +68,7 @@
 }
 
 .social-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
   box-shadow: 0 8px 16px var(--light-blue);
   /* color: #007BFF;*/
 }
