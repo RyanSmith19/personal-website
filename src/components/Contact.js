@@ -15,7 +15,7 @@ const Contact = () => {
         </div>
       </div>
       <div className="social-icons">
-        <a href="https://www.linkedin.com/in/ryan-smith-45ab76264" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/ryancsmith19" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin social-icon"></i>
         </a>
         <a href="https://github.com/RyanSmith19" target="_blank" rel="noopener noreferrer">

@@ -5,10 +5,10 @@ import './Projects.css';
 const projectData = [
   {
     title: "Figg's Window Cleaning Website",
-    description: "Developed a professional website for a local window cleaning business, Figg's Window Cleaning. The site features a clean and responsive design, highlighting the company's services, team, and contact information.",
+    description: "Developed a professional website using React for a local window cleaning business, Figg's Window Cleaning. The site features a clean and responsive design, highlighting the company's services, team, and contact information.",
     keyFeatures: [
       'Responsive design ensuring optimal viewing on all devices',
-      'Detailed service descriptions',
+      'Clean design',
       'Clear contact information for easy appointment scheduling',
     ],
     githubLink: 'https://github.com/RyanSmith19/figg-window-cleaning',
@@ -45,6 +45,16 @@ const projectData = [
     ],
     githubLink: 'https://github.com/RyanSmith19/BereanCarpoolRidesOrganizer',
   },
+  {
+    "title": "Audio and Visual Technician at Berean Bible Church Arroyo Grande",
+    "description": "Voluntarily served as an AV technician at a local church, responsible for ensuring high-quality audio and visual experiences during services. This role includes setting up and tearing down wiring, microphones, and speakers, adjusting cameras and audio boards, and recording services for online listeners.",
+    "keyFeatures": [
+      "Proficient in multimedia streaming technologies",
+      "Skilled in troubleshooting and resolving technical issues in real-time",
+      "Experience with recording and uploading content to cloud services"
+    ],
+    projectLink: 'https://bereanbibleag.com/'
+  },  
   // Add more projects as needed
 ];
 

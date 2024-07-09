@@ -26,9 +26,14 @@ const About = () => {
       </header>
       <section id="about" className="about">
         <h2>About Me</h2>
-        <p>I am a {age} year old Software Engineer currently seeking full-time employment. I graduated from Cal Poly with a B.S. in Software Engineering, June of 2024. With a strong foundation in software development and a passion for creating innovative solutions, I am eager to bring my skills and enthusiasm to a dynamic team.</p>
-        <p>Hobbies</p>
-        <a href="https://drive.google.com/file/d/1vIPpD3jma_Bk4dXFg2N3yMRZYDPuPBAb/view" target="_blank" className="resume-link" rel="noreferrer">
+        <p>I am a {age} year old Software Engineer currently seeking full-time employment. 
+          I graduated from Cal Poly with a B.S. in Software Engineering, June of 2024. 
+          With a strong foundation in software development and a passion for creating innovative solutions, 
+          I am eager to bring my skills and enthusiasm to a dynamic team.
+          In my free time I most enjoy playing pickle ball, hiking, and surfing. 
+          I like reading theology books, partically the Puritan era, as well as the Star Wars Expanded Universe.
+          I was born and raised in Arroyo Grande, on the Central Coast of California.</p>
+        <a href="https://drive.google.com/file/d/1nYepyKUh2BXPEfmKUrMaWTxDfLiXCn6x/view?usp=sharing" target="_blank" className="resume-link" rel="noreferrer">
           View Resume
         </a>
       </section>
